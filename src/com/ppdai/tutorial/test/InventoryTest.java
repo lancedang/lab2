@@ -1,7 +1,5 @@
 package com.ppdai.tutorial.test;
 
-import static org.junit.Assert.fail;
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -167,7 +165,7 @@ public class InventoryTest {
 		inventory.addItem(item2);
 
 		String result = "You currently have the following items " + "in your inventory: \n"
-				+ "a, 1.1 Fantasy Units, 1 Gold\n" +"b, 1.2 Fantasy Units, 3 Gold\n";
+				+ "a, 1.1 Fantasy Units, 1 Gold\n" + "b, 1.2 Fantasy Units, 3 Gold\n";
 		Assert.assertEquals(result, inventory.toString());
 	}
 
